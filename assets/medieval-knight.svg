@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-label="Animated medieval dark knight of code wearing gothic armor with a glowing sword, red moon and flickering torches">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0e16"/><stop offset=".56" stop-color="#14121f"/><stop offset="1" stop-color="#261820"/></linearGradient>
+<linearGradient id="parchment" x1="0" y1="0" x2="1"><stop stop-color="#e0cba8"/><stop offset=".5" stop-color="#f7e7ce"/><stop offset="1" stop-color="#bfa88a"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#283040"/><stop offset=".3" stop-color="#778198"/><stop offset=".6" stop-color="#373b4f"/><stop offset="1" stop-color="#171c2a"/></linearGradient>
+<linearGradient id="blade" x1="0" y1="0" x2="1"><stop stop-color="#c7b1bb"/><stop offset=".5" stop-color="#f7e3d2"/><stop offset="1" stop-color="#6b859e"/></linearGradient>
+<radialGradient id="ember"><stop stop-color="#ffd3a2"/><stop offset=".55" stop-color="#ce6945"/><stop offset="1" stop-color="#8c293a"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+<clipPath id="cl"><rect x="9" y="9" width="1182" height="432" rx="10"/></clipPath>
+<style><![CDATA[
+.torch{animation:fire 1.3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center bottom}
+.eye{animation:eye 2.8s ease-in-out infinite alternate}
+.cloak{animation:cloak 3s ease-in-out infinite alternate;transform-origin:930px 216px}
+.sword{animation:sword 4s ease-in-out infinite;transform-origin:1014px 360px}
+.smoke{animation:smoke 5s ease-in-out infinite alternate}
+.rune{animation:rune 3.1s ease-in-out infinite alternate}
+.glow{animation:eye 2.8s ease-in-out infinite alternate}
+.sparks{animation:sparks 3s ease-in-out infinite}
+@keyframes fire{0%{transform:scale(.88,1.05) rotate(-5deg);opacity:.6}100%{transform:scale(1.18,.9) rotate(5deg);opacity:1}}
+@keyframes eye{to{opacity:.15}}
+@keyframes cloak{to{transform:rotate(-2deg) translateX(-9px)}}
+@keyframes sword{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes smoke{to{transform:translateY(-30px) translateX(17px);opacity:.05}}
+@keyframes rune{to{opacity:.9;transform:translateY(-5px)}}
+@keyframes sparks{0%{opacity:0;transform:translateY(7px)}30%{opacity:1}100%{opacity:0;transform:translateY(-30px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+]]></style>
+</defs>
+<rect width="1200" height="450" rx="15" fill="url(#bg)"/>
+<g clip-path="url(#cl)">
+<!-- Stone hall and gothic lancet windows -->
+<path d="M0 0H1200V450H0Z" fill="#10111a" opacity=".26"/>
+<path d="M720 450V125q5-104 172-116q183 11 188 116v325Z" fill="#0b0e16" stroke="#51444e" stroke-width="16"/>
+<path d="M751 450V132q0-94 141-100q141 6 143 100v318Z" fill="#201521"/>
+<circle cx="893" cy="159" r="96" fill="#90394f" opacity=".17" filter="url(#blur)"/>
+<circle cx="893" cy="159" r="77" fill="#9d5062" opacity=".24"/>
+<path d="M893 40V450M744 215H1042 M786 79L998 348M998 79L786 348" stroke="#584657" stroke-width="10" opacity=".62"/>
+<path d="M748 450V128Q893 17 1038 128" stroke="#7d6370" stroke-width="5" fill="none"/>
+<g fill="#181821" stroke="#6c5660" stroke-width="2" opacity=".95">
+<rect x="677" y="0" width="47" height="450"/><rect x="1054" y="0" width="49" height="450"/>
+<path d="M665 57h71v25h-71M1042 57h73v25h-73" />
+<path d="M661 381h81v24h-81M1040 381h81v24h-81"/>
+</g>
+<path d="M0 396H1200V450H0Z" fill="#0a0c13"/>
+<path d="M0 411H1200M0 434H1200" stroke="#59424c" opacity=".34"/>
+<!-- Torch sconces -->
+<g><rect x="684" y="126" width="12" height="72" fill="#5d4a43"/><path d="M672 124h36l-6 16h-24Z" fill="#8f785f"/>
+<ellipse cx="690" cy="106" rx="24" ry="38" fill="#bd633e" opacity=".28" filter="url(#blur)"/>
+<path d="M690 67Q655 102 682 132Q689 142 697 128Q724 105 690 67Z" fill="url(#ember)" class="torch"/>
+<path d="M691 91Q675 113 691 132Q703 119 691 91" fill="#ffd9a0" class="torch"/>
+</g>
+<g><rect x="1088" y="126" width="12" height="72" fill="#5d4a43"/><path d="M1076 124h36l-6 16h-24Z" fill="#8f785f"/>
+<ellipse cx="1094" cy="106" rx="24" ry="38" fill="#bd633e" opacity=".28" filter="url(#blur)"/>
+<path d="M1094 67Q1060 102 1085 132Q1095 140 1100 128Q1128 106 1094 67Z" fill="url(#ember)" class="torch" style="animation-delay:.4s"/>
+<path d="M1094 91Q1078 113 1094 132Q1106 119 1094 91" fill="#ffd9a0" class="torch" style="animation-delay:.4s"/>
+</g>
+<g opacity=".23" class="smoke" fill="none" stroke="#afa2ac" stroke-width="5"><path d="M682 91q-30-27-7-63q11-17-1-26"/><path d="M1090 91q-21-27-5-60q8-17-5-28"/></g>
+<path d="M716 42h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:0s"/><path d="M799 83h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:0.21s"/><path d="M882 124h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:0.42s"/><path d="M965 165h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:0.63s"/><path d="M1048 206h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:0.84s"/><path d="M1131 247h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:1.05s"/><path d="M789 288h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:1.26s"/><path d="M872 329h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:1.47s"/><path d="M955 370h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:1.68s"/><path d="M1038 61h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:1.89s"/><path d="M1121 102h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:2.1s"/><path d="M779 143h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:2.31s"/><path d="M862 184h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:2.52s"/><path d="M945 225h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:2.73s"/><path d="M1028 266h8m-4 -4v8" stroke="#bca3cf" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:2.94s"/><path d="M1111 307h8m-4 -4v8" stroke="#b48b70" stroke-width="1.3" opacity=".42" class="rune" style="animation-delay:3.15s"/>
+<!-- Knight's cape -->
+<g class="cloak">
+<path d="M821 215Q783 280 738 375L718 450H1055L1078 394Q1015 280 966 212Z" fill="#401c2d" stroke="#804151" stroke-width="5"/>
+<path d="M825 245Q799 337 753 437L831 445Q857 319 881 258Z" fill="#7c2c3b" opacity=".36"/>
+<path d="M968 245Q1001 349 1047 437L989 446L934 259Z" fill="#68243a" opacity=".42"/>
+</g>
+<!-- Knight dark plate armor -->
+<g stroke="#1a1a23" stroke-width="4">
+<!-- legs greaves -->
+<path d="M839 330L890 330L885 423L865 443L832 437Z" fill="url(#metal)"/>
+<path d="M909 330L960 330L967 437L934 442L907 423Z" fill="url(#metal)"/>
+<path d="M828 429h62l7 19h-88Z" fill="#252838" stroke="#858090" stroke-width="3"/>
+<path d="M907 429h64l15 19h-89Z" fill="#252838" stroke="#858090" stroke-width="3"/>
+<!-- shoulder pads -->
+<path d="M822 202Q792 204 786 233L780 269L832 284L860 230Z" fill="url(#metal)"/>
+<path d="M968 201Q1009 203 1019 246L1017 274L964 279L934 230Z" fill="url(#metal)"/>
+<path d="M809 219L796 198L806 234M984 216L1006 196L998 232" fill="#454a5d" stroke="#a38c91" stroke-width="3"/>
+<!-- arms -->
+<path d="M796 270L836 281L818 369L785 360Z" fill="url(#metal)"/>
+<path d="M966 278L1009 263L1033 360L990 371Z" fill="url(#metal)"/>
+<path d="M776 351L822 360L815 389L776 383Z" fill="#6f768b"/>
+<path d="M995 362L1039 350L1042 391L1000 389Z" fill="#6f768b"/>
+<!-- chest cuirass -->
+<path d="M844 211Q884 227 944 211L974 251L956 330L905 356L837 330L822 250Z" fill="url(#metal)"/>
+<path d="M851 244L907 262L952 240L944 299L906 321L849 299Z" fill="#333849" stroke="#8a8894" stroke-width="3"/>
+<path d="M907 264v55M855 281h94" stroke="#a1a0a9" stroke-width="3" opacity=".62"/>
+<path d="M831 321q76 33 133-2l8 24q-67 39-148 0Z" fill="#272735" stroke="#aa907b" stroke-width="4"/>
+<path d="M843 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 244q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M843 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 254q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M843 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 264q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M843 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 274q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M843 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 284q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M843 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 294q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M843 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 304q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M843 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M858 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M873 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M888 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M903 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M918 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M933 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M948 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/><path d="M963 314q7 8 14 0" fill="none" stroke="#121520" stroke-width="1.2" opacity=".35"/>
+<!-- neck -->
+<rect x="865" y="183" width="78" height="35" rx="12" fill="#353745"/>
+<!-- Helm -->
+<path d="M852 111Q863 81 901 73Q943 81 951 110L954 175L934 202L868 202L848 174Z" fill="url(#metal)" stroke="#a1a0a8" stroke-width="5"/>
+<path d="M848 132h107l-14 22h-80Z" fill="#11141c"/>
+<path d="M858 147L887 153L874 165L862 161Z" fill="#f4a17e" stroke="#d97968" stroke-width="2" class="eye"/>
+<path d="M943 147L916 153L925 165L942 161Z" fill="#f4a17e" stroke="#d97968" stroke-width="2" class="eye"/>
+<path d="M899 135L888 179L901 208L915 179Z" fill="#727589" stroke="#181b28" stroke-width="3"/>
+<path d="M866 181h24l11 24l11-24h25" stroke="#1d1f2e" stroke-width="6" fill="none"/>
+<path d="M853 115l49-26l47 26" fill="none" stroke="#c2b0ab" stroke-width="6"/>
+<path d="M902 84v-31M886 61L903 43L920 61" stroke="#c3a17a" stroke-width="4"/>
+<!-- Etched sun emblem -->
+<circle cx="906" cy="287" r="17" fill="#3e2d3a" stroke="#d4a76b" stroke-width="3"/>
+<path d="M906 275v24M894 287h24M897 278l18 18M915 278l-18 18" stroke="#d4a76b" stroke-width="2"/>
+</g>
+<!-- Sword in gauntlet -->
+<g class="sword">
+ <path d="M1041 126L1064 151L1030 343L1014 353Z" fill="url(#blade)" stroke="#dcc2b1" stroke-width="3"/>
+ <path d="M1041 126l23 25l-13-39Z" fill="#f1d0c0"/>
+ <path d="M1037 154L1027 330" stroke="#fff1e7" stroke-width="2" opacity=".6"/>
+ <path d="M994 333L1061 348L1058 362L990 347Z" fill="#aa8561" stroke="#f0c79e" stroke-width="3"/>
+ <path d="M1020 352L1013 405" stroke="#c99e69" stroke-width="11"/>
+ <circle cx="1009" cy="414" r="10" fill="#a47048" stroke="#e6c18b" stroke-width="3"/>
+ <circle cx="1045" cy="237" r="26" fill="#e7858f" opacity=".25" filter="url(#blur)" class="glow"/>
+ <path d="M1054 185l6 3M1026 270l-7 5" stroke="#efc4a1" stroke-width="3" class="sparks"/>
+</g>
+<!-- Left introduction medieval parchment panel -->
+<rect x="37" y="37" width="588" height="377" rx="7" fill="#19151c" stroke="#7b5d54" stroke-width="2"/>
+<rect x="47" y="48" width="568" height="355" rx="4" fill="none" stroke="#aa8e6e" stroke-width="1" stroke-dasharray="4 7" opacity=".6"/>
+<g font-family="Georgia,serif">
+ <text x="74" y="105" fill="#ceb195" font-size="17" font-weight="700" letter-spacing="5">THE OATHBOUND CHRONICLE</text>
+ <text x="72" y="167" fill="url(#parchment)" font-size="54" font-weight="700" letter-spacing="3">ARLI</text>
+ <text x="74" y="208" fill="#d89f96" font-size="28" font-weight="700" letter-spacing="1">THE CODE KNIGHT</text>
+ <path d="M74 229h478M74 233h293" stroke="#81645e" stroke-width="2"/>
+ <text x="74" y="267" fill="#d2c1b7" font-size="20" letter-spacing="1.2">GUILD : COMPUTER ENGINEERING</text>
+ <text x="74" y="306" fill="#d2c1b7" font-size="20" letter-spacing="1.2">BLADE : C PROGRAMMING</text>
+ <text x="74" y="345" fill="#d2c1b7" font-size="20" letter-spacing="1.2">REALM : LINUX KINGDOM</text>
+ <text x="74" y="384" fill="#d8ac8b" font-size="17" letter-spacing="1.2">“Knowledge is forged through practice.”</text>
+</g>
+</g>
+<rect x="9" y="9" width="1182" height="432" rx="10" fill="none" stroke="#a78a6c" stroke-width="2" opacity=".75"/>
+</svg>
